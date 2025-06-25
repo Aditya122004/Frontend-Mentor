@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    background-color:hsl(0, 0%, 8%);
+    font-family:'Inter';
+}
+.root{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    color:hsl(0, 0%, 100%);
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(0, 0%, 12%);
+    justify-content:center;
+    align-items:center;
+    padding:20px 40px;
+}
+img{
+    border-radius:50%;
+}
+.green-content{
+    color:hsl(75, 94%, 57%);
+    font-weight:600;
+}
+h2{
+    font-weight:700;
+}
+.social-card{
+    background-color:hsl(0, 0%, 20%);
+    padding:20px;
+    width:auto;
+    margin-top:10px;
+    font-weight:700;
+}
+.social{
+    width:325px;
+    text-align:center;
+}
