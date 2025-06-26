@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400 600 700;
+    font-style: normal;
+}
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    background: url('./assets/images/background-pattern-desktop.svg');
+    background-color:hsl(275, 100%, 97%);
+    font-family:'Work Sans';
+}
+.root{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card{
+    background-color:hsl(0, 100%, 100%);
+    width:500px;
+    padding:0rem 1.5rem;
+    border-radius:5%;
+}
+.heading{
+    display:flex;
+    align-items:center;
+    margin:0rem 0rem;
+    gap:1rem;
+}
+.heading h2{
+    font-weight:700;
+    font-size:2.5rem;
+}
+.question{
+    font-weight:600;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.plus-minus{
+    cursor:pointer;
+}
+.ans{
+    font-size:1rem;
+    color:gray;
+    max-height:0;
+    overflow:hidden;
+}
+.ans.active{
+    max-height:fit-content;
+}
